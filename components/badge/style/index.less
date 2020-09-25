@@ -23,7 +23,7 @@
     line-height: @badge-height;
     white-space: nowrap;
     text-align: center;
-    background: @badge-color;
+    background-color: @badge-color;
     border-radius: @badge-height / 2;
     box-shadow: 0 0 0 1px @shadow-color-inverse;
     a,
@@ -49,7 +49,7 @@
     z-index: @zindex-badge;
     width: @badge-dot-size;
     height: @badge-dot-size;
-    background: @highlight-color;
+    background-color: @highlight-color;
     border-radius: 100%;
     box-shadow: 0 0 0 1px @shadow-color-inverse;
   }
@@ -111,7 +111,7 @@
       @color: extract(@preset-colors, @i);
       @darkColor: '@{color}-6';
       &-@{color} {
-        background: @@darkColor;
+        background-color: @@darkColor;
       }
     }
     .make-color-classes();
